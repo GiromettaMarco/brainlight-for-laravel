@@ -1,0 +1,33 @@
+{
+    "name": "brainlight/brainlight-for-laravel",
+    "description": "Laravel support for Brainlight template engine.",
+    "keywords": ["laravel", "templating", "brainlight", "PHP"],
+    "license": "MIT",
+    "homepage": "https://github.com/GiromettaMarco/brainlight-for-laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Marco Girometta",
+            "email": "girometta.marco@gmail.com",
+            "homepage": "https://github.com/GiromettaMarco"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "brainlight/brainlight-php": "^1.0",
+        "laravel/framework": "^8.0|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brainlight\\BrainlightForLaravel\\": "src/BrainlightForLaravel/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Brainlight\\BrainlightForLaravel\\BrainlightServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
