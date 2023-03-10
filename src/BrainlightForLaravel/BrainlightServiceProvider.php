@@ -46,6 +46,7 @@ class BrainlightServiceProvider extends ServiceProvider
         $options = [
             'cacheDir' => config('brainlight.cacheDir'),
             'templatesDir' => false,
+            'logicNamespace' => config('brainlight.logicNamespace'),
             'extension' => config('brainlight.extension'),
             'escapeFlags' => config('brainlight.escapeFlags'),
             'escapeEncoding' => config('brainlight.escapeEncoding'),

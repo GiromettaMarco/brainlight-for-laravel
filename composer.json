@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": "^8.1",
-        "brainlight/brainlight-php": "^1.0",
+        "brainlight/brainlight-php": "^1.1",
         "laravel/framework": "^8.0|^9.0|^10.0"
     },
     "autoload": {
